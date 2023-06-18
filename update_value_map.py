@@ -54,4 +54,6 @@ for i in PFXs:
     # looping fields from list
     for i in u_fields:
         # get index of the field to be updated
-        fld_idx = PFX.fields().lookupField(i)        PFX.setEditorWidgetSetup(fld_idx, QgsEditorWidgetSetup('ValueMap', v_map))
+        fld_idx = PFX.fields().lookupField(i)
+        # applying the new value map to the forms
+        PFX.setEditorWidgetSetup(fld_idx, QgsEditorWidgetSetup('ValueMap', v_map))
