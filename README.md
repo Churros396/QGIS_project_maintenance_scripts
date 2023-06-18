@@ -4,6 +4,6 @@ These short python scripts helped me maintain QGIS Projects via the Python Plugi
 currently avaible:
 1. add_field.py: create a new field on multiple layers with a common prefix
 2. update_value_map: 
-   - your projects inlcudes forms 
-   - the forms is created from a value map
+   - your projects inlcudes forms to give fields values
+   - the forms are created from a value map
    - use this script to update the value map from a excel file(as layer) for all layers with a common prefix
