@@ -7,3 +7,6 @@ currently avaible:
    - your projects inlcudes forms to give fields values
    - the forms are created from a value map
    - use this script to update the value map from a excel file(as layer) for all layers with a common prefix
+
+in developement:
+- transferring features to other layer based on location
